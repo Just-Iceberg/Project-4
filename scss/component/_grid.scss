@@ -22,82 +22,54 @@
   }
   
   .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $purp-mountain;
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $coral;
   }
   
   .theme.col-3 {
-    background-color: #deb2ee;
+    background-color: $french-lilac;
   }
   
   .theme.col-4 {
-    background-color: #7ee6fd;
+    background-color: $anakiwa;
   }
   
   .theme.col-5 {
-    background-color: #88d9a0;
+    background-color: $vista-blue;
   }
   
   .theme.col-6 {
-    background-color: #4da2bb;
+    background-color: $fountain-blue;
   }
   
   .theme.col-7 {
-    background-color: #ec9fa3;
+    background-color: $sea-pink;
   }
   
   .theme.col-8 {
-    background-color: #fd9f85;
+    background-color: $vivid-tangerine;
   }
   
   .theme.col-9 {
-    background-color: #e4757a;
+    background-color: $sunglo;
   }
   
   .theme.col-10 {
-    background-color: #63cc82;
+    background-color: $emerald;
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $malibu-blue;
   }
   
   .theme.col-12 {
-    background-color: #80e8d1;
+    background-color: $riptide;
   }
   
   .card {
     flex-basis: 100%;
   }
-  
-  
-  /* ============================================= */
-  /*              Forms                            */
-  /* ============================================= */
-  
-  .form {
-    flex-basis: 100%;
-  }
-  
-  .input{
-    display: block;
-    width: 94%;
-    margin: 10px auto 0;
-    border: none;
-    padding: 10px;
-    border-bottom: 5px solid #58e1c1;
-  }
-  
-  .hidden {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-  }
-  
   

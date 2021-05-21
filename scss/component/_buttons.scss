@@ -1,0 +1,38 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  &:hover {
+    background-color: $color-hover-light;
+  }
+}
+
+.default {
+  background-color: $malibu-blue;
+}
+
+.error {
+  background-color: $sunglo;
+}
+
+.info {
+  background-color: $purp-mountain;
+}
+
+.success {
+  background-color: $emerald;
+}
+
+.warning {
+  background-color: $coral;
+}
+
+  
