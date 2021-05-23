@@ -1,4 +1,10 @@
 /* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+/* ============================================= */
+/*           Media Queries                       */
+/* ============================================= */
+/* ============================================= */
 /*              Images  Mixin                    */
 /* ============================================= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -421,31 +427,42 @@ a {
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
-  border-radius: 5px;
-  transition: background-color 0.4s ease-in-out; }
-  /* line 14, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
-  .btn:hover {
-    background-color: #9d9d9d; }
+  border-radius: 5px; }
 
-/* line 19, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+/* line 23, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
 .default {
   background-color: #51ddfc; }
+  /* line 25, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+  .default:hover {
+    background-color: #9cecfd; }
 
 /* line 23, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
 .error {
   background-color: #e4757a; }
+  /* line 25, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+  .error:hover {
+    background-color: #f1b5b8; }
 
-/* line 27, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+/* line 23, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
 .info {
   background-color: #927bc1; }
+  /* line 25, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+  .info:hover {
+    background-color: #bdafd9; }
 
-/* line 31, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+/* line 23, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
 .success {
   background-color: #63CC82; }
+  /* line 25, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+  .success:hover {
+    background-color: #9ddfb0; }
 
-/* line 35, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+/* line 23, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
 .warning {
   background-color: #fd7856; }
+  /* line 25, ../../../../GitHub/Project-4/scss/component/_buttons.scss */
+  .warning:hover {
+    background-color: #feb4a2; }
 
 /* ============================================= */
 /*              Grid System                      */
@@ -468,55 +485,55 @@ a {
   padding: 10px;
   border-radius: 5px; }
 
-/* line 24, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1; }
 
-/* line 28, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856; }
 
-/* line 32, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee; }
 
-/* line 36, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd; }
 
-/* line 40, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0; }
 
-/* line 44, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb; }
 
-/* line 48, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3; }
 
-/* line 52, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85; }
 
-/* line 56, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a; }
 
-/* line 60, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-10 {
   background-color: #63CC82; }
 
-/* line 64, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc; }
 
-/* line 68, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 26, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1; }
 
-/* line 72, ../../../../GitHub/Project-4/scss/component/_grid.scss */
+/* line 31, ../../../../GitHub/Project-4/scss/component/_grid.scss */
 .card {
   flex-basis: 100%; }
 
@@ -589,57 +606,57 @@ a {
   /* line 29, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px; }
-  /* line 33, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-1 {
     flex-basis: 8.33%; }
-  /* line 37, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-2 {
     flex-basis: 16.67%; }
-  /* line 41, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-3 {
-    flex-basis: 25.00%; }
-  /* line 45, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: 25%; }
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-4 {
     flex-basis: 33.33%; }
-  /* line 49, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-5 {
     flex-basis: 41.67%; }
-  /* line 53, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-6 {
-    flex-basis: 50.00%; }
-  /* line 57, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: 50%; }
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-7 {
     flex-basis: 58.33%; }
-  /* line 61, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-8 {
     flex-basis: 66.67%; }
-  /* line 65, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-9 {
-    flex-basis: 75.00%; }
-  /* line 69, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: 75%; }
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-10 {
     flex-basis: 83.33%; }
-  /* line 73, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-11 {
     flex-basis: 91.67%; }
-  /* line 77, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-12 {
     flex-basis: 100%; }
-  /* line 81, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 39, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center; }
-  /* line 87, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
-  .nav-link {
-    flex-basis: 100px; }
-  /* line 91, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    /* line 43, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    .nav-link {
+      flex-basis: 100px; }
+  /* line 48, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .btn {
     padding: 10px 30px; }
-  /* line 95, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 52, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .btn + .btn {
     margin-left: 10px; }
-  /* line 99, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 56, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial; } }
