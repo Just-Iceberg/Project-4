@@ -29,10 +29,20 @@
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  
-  @each $val, $size in $flexb-size {
-    .col-#{$val} {
-      flex-basis: $size;
+
+  //Serves as a reminder of another way of doing it:
+  // ref var in variables.css
+  //
+  //
+  // @each $val, $size in $flexb-size {
+  //   .col-#{$val} {
+  //     flex-basis: $size;
+  //   }
+  // }
+
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      flex-basis: cal(#{$i}*8.33%);
     }
   }
 

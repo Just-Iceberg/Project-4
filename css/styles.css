@@ -606,57 +606,57 @@ a {
   /* line 29, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-1 {
-    flex-basis: 8.33%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(1*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-2 {
-    flex-basis: 16.67%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(2*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-3 {
-    flex-basis: 25%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(3*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-4 {
-    flex-basis: 33.33%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(4*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-5 {
-    flex-basis: 41.67%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(5*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-6 {
-    flex-basis: 50%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(6*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-7 {
-    flex-basis: 58.33%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(7*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-8 {
-    flex-basis: 66.67%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(8*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-9 {
-    flex-basis: 75%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(9*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-10 {
-    flex-basis: 83.33%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(10*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-11 {
-    flex-basis: 91.67%; }
-  /* line 34, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(11*8.33%); }
+  /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-12 {
-    flex-basis: 100%; }
-  /* line 39, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    flex-basis: cal(12*8.33%); }
+  /* line 49, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center; }
-    /* line 43, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+    /* line 53, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
     .nav-link {
       flex-basis: 100px; }
-  /* line 48, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 58, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .btn {
     padding: 10px 30px; }
-  /* line 52, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 62, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .btn + .btn {
     margin-left: 10px; }
-  /* line 56, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
+  /* line 66, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial; } }
