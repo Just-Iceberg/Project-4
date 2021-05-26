@@ -608,40 +608,40 @@ a {
     margin-left: 10px; }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-1 {
-    flex-basis: cal(1*8.33%); }
+    flex-basis: calc(1*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-2 {
-    flex-basis: cal(2*8.33%); }
+    flex-basis: calc(2*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-3 {
-    flex-basis: cal(3*8.33%); }
+    flex-basis: calc(3*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-4 {
-    flex-basis: cal(4*8.33%); }
+    flex-basis: calc(4*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-5 {
-    flex-basis: cal(5*8.33%); }
+    flex-basis: calc(5*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-6 {
-    flex-basis: cal(6*8.33%); }
+    flex-basis: calc(6*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-7 {
-    flex-basis: cal(7*8.33%); }
+    flex-basis: calc(7*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-8 {
-    flex-basis: cal(8*8.33%); }
+    flex-basis: calc(8*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-9 {
-    flex-basis: cal(9*8.33%); }
+    flex-basis: calc(9*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-10 {
-    flex-basis: cal(10*8.33%); }
+    flex-basis: calc(10*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-11 {
-    flex-basis: cal(11*8.33%); }
+    flex-basis: calc(11*8.33%); }
   /* line 44, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .col-12 {
-    flex-basis: cal(12*8.33%); }
+    flex-basis: calc(12*8.33%); }
   /* line 49, ../../../../GitHub/Project-4/scss/component/_media_queries.scss */
   .nav {
     flex-direction: row;
